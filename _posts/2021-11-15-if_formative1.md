@@ -5,7 +5,8 @@ toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
 ---
-toc_label: "페이지 주요 목차" --- ### 01. 사주보기
+
+### 01. 사주보기
 ![saju](/assets/images/if1.jpg)
 ~~~c
 #include <stdio.h>
@@ -20,7 +21,9 @@ printf("당신의 사주는 대박입니다.\n");
 else
 printf("당신의 사주는 그럭저럭입니다.\n");
 return 0;
-}~~~ ### 02. 3개의 터널 통과
+}
+~~~
+### 02. 3개의 터널 통과
 ![tunnul](/assets/images/if2.jpg)
 ~~~c
 #include <stdio.h>
@@ -37,7 +40,9 @@ printf("충돌 %d", tunnul_3);
 else
 printf("무사 통과");
 return 0;
-}~~~ ### 03. 이 달은 며칠까지 있을까?
+}
+~~~ 
+### 03. 이 달은 며칠까지 있을까?
 ![callenderl](/assets/images/if3.jpg)
 ~~~c
 #include <stdio.h>
@@ -59,4 +64,5 @@ printf("28일");
 }
 printf("입니다.\n");
 return 0;
-}~~~
+}
+~~~
